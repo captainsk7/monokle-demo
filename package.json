@@ -1,0 +1,17 @@
+{
+    "name": "Templates plugins",
+    "description": "Custom templates plugin",
+    "version": "1.0.0",
+    "author": "Shailesh Kondke",
+    "repository": "https://github.com/captainsk7/monokle-demo.git",
+    "monoklePlugin": {
+        "id":"com.github.captainsk7.plugin.templates",
+        "helpUrl":"https://github.com/captainsk7/monokle-demo",
+        "modules": [
+          {
+            "type": "template",
+            "path": "basic-pod-template"
+          }
+        ]
+      }
+  }
