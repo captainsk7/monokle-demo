@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "required": [
+      "name",
+      "image"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "default": "kubernetes-pod"
+      },
+      "namespace": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      }
+    }
+  }
