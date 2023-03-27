@@ -11,6 +11,10 @@
           {
             "type": "template",
             "path": "basic-pod-template"
+          },
+          {
+            "type": "template",
+            "path": "Advance-pod-template"
           }
         ]
       }
