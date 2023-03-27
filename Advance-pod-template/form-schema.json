@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": ["name", "image"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "my-pod"
+    },
+    "namespace": {
+      "type": "string"
+    },
+    "nodeName": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "cpuLimit": {
+      "type": "string",
+      "default": "500m"
+    },
+    "memoryLimit": {
+      "type": "string",
+      "default": "128Mi"
+    },
+    "gpuLimit": {
+      "type": "integer"
+      "default": "1"
+    }
+  }
+}
