@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "required": ["name", "image", "pvcClaimName", "volumeName", "mountPath"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "my-pod"
+    },
+    "namespace": {
+      "type": "string"
+    },
+    "nodeName": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "cpuLimit": {
+      "type": "string",
+      "default": "500m"
+    },
+    "memoryLimit": {
+      "type": "string",
+      "default": "128Mi"
+    },
+    "gpuLimit": {
+      "type": "integer",
+      "default": "1"
+    },
+    "volumeName": {
+      "type": "string"
+    },
+    "mountPath": {
+      "type": "string"
+    },
+    "pvcClaimName": {
+      "type": "string"
+    }
+  }
+}
