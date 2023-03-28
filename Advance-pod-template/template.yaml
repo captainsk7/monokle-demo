@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: [[forms[0].name]]
+[[ forms[0].namespace ? "  namespace: "+forms[0].namespace + "\n" : ""]]
+spec:
+  nodeName: [[forms[0].nodeName]]
+  containers:
+  - name: [[forms[0].name]]
+    image: [[forms[0].image]]
+    resources:
+      limits:
+        memory: [[forms[0].memoryLimit]]
+        cpu: [[forms[0].cpuLimit]]
+        nvidia.com/gpu: [[forms[0].gpuLimit]]
