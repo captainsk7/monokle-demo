@@ -15,6 +15,10 @@
           {
             "type": "template",
             "path": "Advance-pod-template"
+          },
+          {
+            "type": "template",
+            "path": "Advance-pod-with-volume"
           }
         ]
       }
