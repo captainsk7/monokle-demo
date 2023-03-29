@@ -12,4 +12,6 @@ spec:
     storage: [[forms[0].storage]]
   accessModes:
     - [[forms[0].accessMode]]
+  hostPath:
+    path: [[forms[0].hostPath]]
   persistentVolumeReclaimPolicy: [[forms[0].reclaim]]
