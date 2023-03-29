@@ -17,6 +17,9 @@
     "storage": {
       "type": "string"
     },
+    "hostPath": {
+      "type": "string"
+    },
     "accessMode": {
       "type": "string",
       "default": "ReadWriteOnce",
