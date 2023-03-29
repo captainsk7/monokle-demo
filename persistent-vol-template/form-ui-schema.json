@@ -16,6 +16,10 @@
     "ui:title": "Volume Size",
     "ui:help": "The volume size"
   },
+  "hostPath": {
+    "ui:title": "Host Path",
+    "ui:help": "Host path of Directory to be attached to the pod"
+  },
   "accessMode": {
     "ui:title": "Access Mode",
     "ui:help": "The AccessMode for PV"
