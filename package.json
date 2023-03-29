@@ -22,6 +22,10 @@
           },
           {
             "type": "template",
+            "path": "persistent-vol-claim-template"
+          },
+          {
+            "type": "template",
             "path": "Advance-pod-with-volume"
           }
         ]
